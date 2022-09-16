@@ -1,0 +1,26 @@
+CREATE DATABASE ProjectBackend
+
+
+
+
+CREATE TABLE Personel (
+    isciNomresi int
+    Ad nvarchar(25),
+    Soyadi nvarchar(25),
+    iseGirisVaxti datetime,
+    Unvan nvarchar(max) not null,
+    emekHaqqiEmsali decimal(18,3),
+    birAydaCalisdigiMuddet int
+);
+
+
+
+
+CREATE TABLE Worktime(
+    isciNomresi int,
+    Tarix int,
+    girisSaati int,
+    girisDeqiqesi int,
+    cixisSaati int,
+    cixisDeqiqesi int,
+);
